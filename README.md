@@ -40,7 +40,6 @@ The Attention Fusion Block (AFB) is used for feature interaction between differe
 
 The Adaptive Feature Fusion (AFF) module is used in the decoding stage to aggregate features from different scales. It concatenates multi-scale feature maps and then uses convolution layers to compress and reconstruct the fused representation. This helps the decoder recover detailed textures while maintaining global color and structural consistency.
 
-![Adaptive Feature Fusion](./figures/aff.png)
 
 
 
