@@ -62,7 +62,6 @@ Gamma: 0.5
 
 Random cropping, horizontal flipping, and normalization are used for data augmentation. The training objective consists of a content reconstruction loss and a frequency-domain consistency loss.
 
-Please check the training scripts for detailed paths, checkpoints, and hyperparameter settings.
 
 
 
