@@ -2,7 +2,7 @@
 
 This repository provides the official implementation of the paper:
 
-**Dual-Domain Adaptive Fusion for Enhanced Underwater Im-age Restoration**
+**Dual-Domain Adaptive Fusion for Enhanced Underwater Image Restoration**
 
 The code is directly associated with the manuscript submitted to *The Visual Computer*. If you find this repository useful for your research, please consider citing the corresponding paper.
 
@@ -113,7 +113,7 @@ If you find this code useful for your research, please cite our paper:
 
 ```bibtex
 @article{geng2026ddafnet,
-  title={Dual-Domain Adaptive Fusion for Enhanced Underwater Im-age Restoration},
+  title={Dual-Domain Adaptive Fusion for Enhanced Underwater Image Restoration},
   author={Geng, Xinyu and others},
   year={2026},
   note={Manuscript submitted for publication}
