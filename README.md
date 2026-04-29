@@ -42,6 +42,29 @@ The Adaptive Feature Fusion (AFF) module is used in the decoding stage to aggreg
 
 
 
+## Implementation Details
+
+The model is implemented with PyTorch 1.7.1 and trained on a single NVIDIA GPU. During training, the input images are cropped or resized to 256 × 256. The batch size is set to 1 due to the multi-scale structure and GPU memory cost.
+
+```text
+Optimizer: Adam
+Initial learning rate: 1e-4
+Adam beta1: 0.9
+Adam beta2: 0.999
+Batch size: 1
+Training epochs: 1000
+Input size: 256 × 256
+Dropout: 0.1
+LR scheduler: MultiStepLR
+Milestones: 500, 1000
+Gamma: 0.5
+```
+
+Random cropping, horizontal flipping, and normalization are used for data augmentation. The training objective consists of a content reconstruction loss and a frequency-domain consistency loss.
+
+Please check the training scripts for detailed paths, checkpoints, and hyperparameter settings.
+
+
 
 ## Datasets 
 ```
