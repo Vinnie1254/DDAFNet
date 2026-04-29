@@ -1,3 +1,12 @@
+# DDAFNet
+
+This repository provides the official implementation of the paper:
+
+**Dual-Domain Adaptive Fusion for Enhanced Underwater Im-age Restoration**
+
+The code is directly associated with the manuscript submitted to *The Visual Computer*. If you find this repository useful for your research, please consider citing the corresponding paper.
+
+
 ## Requirements
 Requirements are given below.
 
@@ -96,3 +105,16 @@ python train_water_LSUI.py
 ```bash
 python test_water_LSUI.py
 ```
+
+
+## Citation
+
+If you find this code useful for your research, please cite our paper:
+
+```bibtex
+@article{geng2026ddafnet,
+  title={Dual-Domain Adaptive Fusion for Enhanced Underwater Im-age Restoration},
+  author={Geng, Xinyu and others},
+  year={2026},
+  note={Manuscript submitted for publication}
+}
