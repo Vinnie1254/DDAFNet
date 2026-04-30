@@ -96,15 +96,28 @@ UIEDB
 
 
 ## Training
+
+We provide the training command using the LSUI dataset as an example. Before training, please organize the dataset according to the structure described above and modify the dataset path in `train_water_LSUI.py`.
+
 ```bash
 python train_water_LSUI.py
 ```
 
+The training configuration, including batch size, learning rate, number of epochs, and output paths, can be modified in the training script.
 
 ## Testing
+
+We provide the testing command using the LSUI dataset as an example. Before testing, please modify the dataset path and checkpoint path in `test_water_LSUI.py`.
+
 ```bash
 python test_water_LSUI.py
 ```
+
+The enhanced images and evaluation results will be saved according to the output paths defined in the testing script.
+
+## Checkpoints
+
+Pre-trained weights are not included in this repository. Users can train the model using the provided training script and then specify the generated checkpoint path in the testing script.
 
 
 ## Citation
