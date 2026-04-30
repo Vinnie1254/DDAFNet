@@ -115,9 +115,6 @@ python test_water_LSUI.py
 
 The enhanced images and evaluation results will be saved according to the output paths defined in the testing script.
 
-## Checkpoints
-
-Pre-trained weights are not included in this repository. Users can train the model using the provided training script and then specify the generated checkpoint path in the testing script.
 
 
 ## Citation
